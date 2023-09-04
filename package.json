@@ -1,0 +1,26 @@
+{
+    "name": "chatgpttelegrambot",
+    "version": "1.0.0",
+    "description": "telegram bot that can chat with chat GPT",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "dev": "nodemon index.js",
+        "bot": "nodemon telegramBot.js",
+        "start": "node index.js"
+    },
+    "keywords": [
+        "chatGPT",
+        "telegram",
+        "bot"
+    ],
+    "author": "Oleg Dub <oleg.m.dub@gmail.com>",
+    "license": "ISC",
+    "dependencies": {
+        "axios": "^1.5.0",
+        "node-fetch": "^3.3.2",
+        "node-telegram-bot-api": "^0.61.0",
+        "nodemon": "^3.0.1",
+        "openai": "^4.3.1"
+    }
+}
